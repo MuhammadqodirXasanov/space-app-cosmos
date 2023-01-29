@@ -1,0 +1,63 @@
+.techno {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 230px;
+    align-items: center;
+    padding-left: 130px;
+    background-size: cover;
+    background-image: url(../../assets/imgs/technoBG.jpg);
+}
+.tech-txt {
+    letter-spacing: 3px;
+    font-size: 24px;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.tech-txt1 {
+    color: #D0D6F9;
+    opacity: .6;
+}
+.tech-head {
+    color: white;
+    font-size: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.tech-txtsmain {
+    display: flex;
+    gap: 50px;
+}
+.tech-nums {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.tech-num {
+    padding: 17px 25px;
+    color: white;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 26px;
+    transition: all .1s;
+}
+.tech-num:hover {
+    background: rgba(255, 255, 255, 0.236);
+}
+.tech-num:active {
+    background: #fff;
+    color: black;
+}
+.tech-img {
+    width: 300px;
+    height: 340px;
+    margin-top: 100px;
+}
+.tech-txt2 {
+    color: #D0D6F9;
+    line-height: 25px;
+    opacity: .8;
+}

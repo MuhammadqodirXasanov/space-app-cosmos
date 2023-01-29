@@ -1,0 +1,61 @@
+.destin {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 150px;
+    padding: 50px 150px;
+    background-size: cover;
+    background-image: url(../../assets/imgs/destiBG.jpg);
+}
+.destin__txt {
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.destin__img {
+    width: 300px;
+    height: 290px;
+    margin-top: 40px;
+}
+.destin__link {
+    color: #D0D6F9;
+    text-decoration: none;
+    padding-right: 20px;
+    opacity: .8;
+}
+.destin__link:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+.destin__head {
+    color: white;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 80px;
+}
+.destin__desc {
+    color: #D0D6F9;
+    line-height: 25px;
+    opacity: .8;
+}
+.destin__dist-time {
+    display: flex;
+    border-top: 1px solid #383B4B;
+    padding-top: 20px;
+    margin-top: 30px;
+    gap: 60px;
+}
+.destin__dist-txt {
+    color: #D0D6F9;
+    text-transform: uppercase;
+    opacity: .8;
+}
+.destin__dist-val {
+    color: white;
+    font-weight: 400;
+    padding-top: 8px;
+    font-size: 24px;
+}
