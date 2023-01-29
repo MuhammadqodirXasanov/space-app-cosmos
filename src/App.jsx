@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import { Crew, Destination, Home, Technology } from './pages';
 import { Layout } from './layout/layout';
+import './pages/responsive.css'
 import {
 	moon,
 	mars,

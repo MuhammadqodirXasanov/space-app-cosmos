@@ -21,7 +21,7 @@ export const Destination = (props) => {
 						<p className='destin__dist-txt'>AVG. DISTANCE</p>
 						<h3 className='destin__dist-val'>{props.distVal}</h3>
 					</div>
-					<div>
+					<div className='destin__dist-box'>
 						<p className='destin__dist-txt'>Est. travel time</p>
 						<h3 className='destin__dist-val'>{props.timeVal}</h3>
 					</div>

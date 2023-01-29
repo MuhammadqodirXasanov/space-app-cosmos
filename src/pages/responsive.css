@@ -1,0 +1,242 @@
+.menu {
+	display: none;
+}
+.flex {
+	display: flex;
+	align-items: center;
+}
+@media (max-width: 1193px) {
+	.line {
+		margin: 0 30px;
+	}
+}
+@media (max-width: 1134px) {
+	.line {
+		margin: 0 10px;
+	}
+	.home {
+		gap: 200px;
+	}
+	.techno {
+		gap: 150px;
+		padding-left: 50px;
+	}
+}
+@media (max-width: 1094px) {
+	.header {
+		width: 100%;
+	}
+	.line {
+		width: 300px;
+	}
+
+	.tech-head {
+		font-size: 40px;
+	}
+	.tech-txt {
+		padding-bottom: 50px;
+	}
+
+	.crew-img {
+		padding-top: 50px;
+	}
+}
+@media (max-width: 1024px) {
+	.destin__img {
+		width: 250px;
+		height: 250px;
+	}
+}
+@media (max-width: 992px) {
+	.links {
+		gap: 30px;
+	}
+	.home__text {
+		font-size: 18px;
+	}
+	.home__head {
+		font-size: 110px;
+	}
+	.line {
+		width: 250px;
+	}
+	.links {
+		padding: 20px 30px;
+	}
+	.home {
+		gap: 150px;
+		align-items: center;
+		padding: 30px;
+		padding-top: 100px;
+	}
+	.destin__head {
+		font-size: 50px;
+	}
+	.destin {
+		padding: 20px 50px;
+		gap: 100px;
+	}
+	.crew-main {
+		height: 100%;
+	}
+    .techno {
+        gap: 80px;
+    }
+}
+@media (max-width: 900px) {
+    .techno {
+        height: 100%;
+        gap: 0;
+        flex-direction: column;
+        padding: 50px;
+        padding-bottom: 0;
+    }
+    .tech-img {
+        width: 100%;
+        height: auto;
+    }
+    .tech-txt {
+        text-align: center;
+    }
+}
+@media (max-width: 842px) {
+	.line {
+		width: 150px;
+	}
+	.home {
+		gap: 100px;
+	}
+	.destin {
+		padding: 20px 30px;
+		gap: 50px;
+	}
+	.crew {
+		gap: 0;
+		flex-direction: column;
+		align-items: center;
+		padding: 150px 30px;
+		padding-bottom: 0px;
+	}
+	.crew-img {
+		width: 400px;
+	}
+	.crew__links-box {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+		padding-right: 50px;
+	}
+	.crew-link {
+		padding: 0;
+	}
+	.crew-txt {
+		margin-top: 40px;
+	}
+}
+@media (max-width: 747px) {
+	.home {
+		height: 130vh;
+		flex-direction: column;
+		gap: 50px;
+		align-items: center;
+		padding: 100px 50px;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-image: url(../assets/imgs/mobileHomeBG.jpg);
+	}
+	.home__text {
+		text-align: center;
+		font-size: 16px;
+	}
+	.home__head {
+		text-align: center;
+		font-size: 80px;
+	}
+	.home__text2 {
+		text-align: center;
+	}
+	.links {
+		display: none;
+	}
+	.menu {
+		width: 50px;
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+	}
+	.menu-bar {
+		border: 2px solid #fff;
+		border-radius: 50px;
+	}
+	.header {
+		width: 100%;
+		display: block;
+	}
+	.line {
+		width: 100%;
+	}
+	.links-tablet {
+		display: block;
+	}
+	.flex {
+		display: flex;
+		align-items: center;
+		gap: 30px;
+		padding: 0 20px;
+	}
+}
+@media (max-width: 674px) {
+	.destin {
+		height: 100%;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 120px;
+	}
+	.destin * {
+		width: 100%;
+		text-align: center;
+	}
+	.destin__img {
+		width: 100%;
+		height: inherit;
+	}
+	.crew * {
+		text-align: center;
+	}
+	.crew-txt {
+		font-size: 16px;
+	}
+	.crew-head {
+		font-size: 24px;
+	}
+	.crew-head2 {
+		font-size: 36px;
+	}
+	.crew-txt2 {
+		font-size: 14px;
+	}
+}
+@media (max-width: 630px) {
+    .tech-txtsmain {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .tech-nums {
+        flex-direction: row;
+    }
+}
+@media (max-width: 425px) {
+	.crew-img {
+		width: 300px;
+		height: 300px;
+	}
+	.crew,
+	.destin,
+	.home {
+		min-width: 320px;
+	}
+}
